@@ -9,6 +9,14 @@ This is a web application that allows users to view and compare NFL player stati
 * Filter player statistics by game, date, and team.
 * Export player statistics to a CSV file.
 * Generate Heatmap
+### Technologies Used  
+![](https://forthebadge.com/images/badges/made-with-python.svg) 
+
+<img target="_blank" src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png" width=170>
+<img target="_blank" src="https://github.com/ditikrushna/End-to-End-Diabetes-Prediction-Application-Using-Machine-Learning/blob/master/Resource/numpy.png" width=170>
+<img target="_blank" src="https://github.com/ditikrushna/End-to-End-Diabetes-Prediction-Application-Using-Machine-Learning/blob/master/Resource/pandas.jpeg" width=170>
+
+  
 
 ## Requirements
 
