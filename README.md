@@ -3,7 +3,6 @@
 This is a web application that allows users to view and compare NFL player statistics.
 
 ## Features
-
 * View player statistics for the current season, previous seasons, and career.
 * Compare player statistics across different positions and teams.
 * Filter player statistics by game, date, and team.
