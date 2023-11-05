@@ -1,5 +1,4 @@
 # NFL Player Stat App
-
 This is a web application that allows users to view and compare NFL player statistics.
 
 ## Features
