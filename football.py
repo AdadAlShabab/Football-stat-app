@@ -57,9 +57,9 @@ st.markdown(filedownload(df_selected_team), unsafe_allow_html=True)
 if st.button('Intercorrelation Heatmap'):
     st.header('Intercorrelation Matrix Heatmap')
     df_selected_team.to_csv('output.csv', index=False)
-    df = pd.read_csv('output.csv', converters={'Team': str})
+    df = pd.read_csv('output.csv')
 
-    corr = df.corr()
+    corr = df.corr(method='pearson', min_periods=1, numeric_only=True)
     mask = np.zeros_like(corr)
     mask[np.triu_indices_from(mask)] = True
     with sns.axes_style("white"):
